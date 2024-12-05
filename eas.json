@@ -1,35 +1,35 @@
 {
-  "cli": {
-    "version": ">= 13.4.2",
-    "appVersionSource": "remote"
-  },
-  "build": {
-    "development": {
-      "developmentClient": true,
-      "distribution": "internal"
+    "cli": {
+        "version": ">= 13.4.2",
+        "appVersionSource": "remote"
     },
-    "preview": {
-      "distribution": "internal",
-      "android": {
-        "buildType": "apk"
-      },
-      "env": {
-        "EXPO_PUBLIC_CLOUDINARY_CLOUD_NAME": "dn3glov11",
-        "EXPO_PUBLIC_API_URL_DEV": "https://www.copracess.live/api/mobile",
-        "EXPO_PUBLIC_ACCESS_TOKEN_KEY": "accessToken",
-        "EXPO_PUBLIC_REFRESH_TOKEN_KEY": "refreshToken",
-        "EXPO_PUBLIC_UPLOAD_PRESET": "copracess",
-        "CLOUDINARY_API_KEY": "485317616582629",
-        "CLOUDINARY_API_SECRET": "rS8CyeY88kclaOvL8p2VAAFNGwg",
-        "CLOUDINARY_URL": "cloudinary://485317616582629:rS8CyeY88kclaOvL8p2VAAFNGwg@dn3glov11",
-        "EXPO_PUBLIC_ENCRYPTION_KEY": ""
-      }
+    "build": {
+        "development": {
+            "developmentClient": true,
+            "distribution": "internal"
+        },
+        "preview": {
+            "distribution": "internal",
+            "android": {
+                "buildType": "apk"
+            },
+            "env": {
+                "EXPO_PUBLIC_CLOUDINARY_CLOUD_NAME": "dn3glov11",
+                "EXPO_PUBLIC_API_URL_DEV": "https://www.copracess.live/api/mobile",
+                "EXPO_PUBLIC_ACCESS_TOKEN_KEY": "accessToken",
+                "EXPO_PUBLIC_REFRESH_TOKEN_KEY": "refreshToken",
+                "EXPO_PUBLIC_UPLOAD_PRESET": "copracess",
+                "CLOUDINARY_API_KEY": "485317616582629",
+                "CLOUDINARY_API_SECRET": "rS8CyeY88kclaOvL8p2VAAFNGwg",
+                "CLOUDINARY_URL": "cloudinary://485317616582629:rS8CyeY88kclaOvL8p2VAAFNGwg@dn3glov11",
+                "EXPO_PUBLIC_ENCRYPTION_KEY": "3a7bd3e2360a3d29eea436fcfb7e44c735d117c42d1c1835420b6b9942dd4f1b"
+            }
+        },
+        "production": {
+            "autoIncrement": true
+        }
     },
-    "production": {
-      "autoIncrement": true
+    "submit": {
+        "production": {}
     }
-  },
-  "submit": {
-    "production": {}
-  }
 }

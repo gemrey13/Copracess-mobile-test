@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Copracess-mobile",
-    "slug": "Copracess-mobile",
+    "slug": "copracess",
     "scheme": "copracess",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -61,8 +61,9 @@
         "origin": false
       },
       "eas": {
-        "projectId": "137216df-204e-4456-a235-9b6eb731d315"
+        "projectId": "8107b643-6a51-4174-894d-e8a108a52f31"
       }
-    }
+    },
+    "owner": "gemrey13"
   }
 }
